@@ -28,3 +28,5 @@ Carousel = Backbone.View.extend({
     }.bind(this));
   }
 });
+
+new Carousel({el: '#carousel'}).render();

@@ -1,0 +1,4 @@
+#my-carousel { border: 1px solid #000; padding: 10px; }
+.carousel-item { display: none; position: relative; padding: 0 30px;}
+.carousel-item .carousel-prev { position: absolute; left: 0; }
+.carousel-item .carousel-next { position: absolute; right: 0; }

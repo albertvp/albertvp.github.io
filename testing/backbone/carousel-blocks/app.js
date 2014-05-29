@@ -4,8 +4,8 @@ window.app = {
 	views: {},
 	initialize: function(){
 		app.views.carousel = new CarouselView({
-			carousel: 'template/carousel.html',
-			block: 'template/block.html'
+			carousel: '/testing/backbone/carousel-blocks/template/carousel.html',
+			block: '/testing/backbone/carousel-blocks/template/block.html'
 		});
 		app.router = new Router();
 		Backbone.history.start();

@@ -11,7 +11,7 @@ window.Blocks = Backbone.Collection.extend({
   model: Block,
   skip: -1,
   url: function() {
-    return '/data/'+(++this.skip)+'.json';
+    return '/testing/backbone/carousel-blocks/data/'+(++this.skip)+'.json';
   },
   fetch: function(ok) {
     return Backbone.Collection.prototype.fetch.call(this, {

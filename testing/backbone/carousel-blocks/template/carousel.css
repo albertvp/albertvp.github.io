@@ -1,0 +1,6 @@
+.carousel-blocks { display: none; height: 50% }
+.carousel-item { 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}

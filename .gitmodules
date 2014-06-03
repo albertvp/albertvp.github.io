@@ -1,0 +1,3 @@
+[submodule "testing/backbone/carousel-blocks"]
+	path = testing/backbone/carousel-blocks
+	url = https://github.com/albertvp/backbone-carousel.git
